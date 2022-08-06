@@ -26,5 +26,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ```js
   提交代码命令：
     git add .
+    git commit -m "t1"
     git push -u origin master
 ```
