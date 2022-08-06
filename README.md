@@ -28,4 +28,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
     git add .
     git commit -m "t1"
     git push -u origin master
+  启动命令：
+     yarn bulid   -- 打包,运行为： serve dist
+     yarn serve   -- 运行
 ```
