@@ -22,3 +22,9 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+```js
+  提交代码命令：
+    git add .
+    git push -u origin master
+```
