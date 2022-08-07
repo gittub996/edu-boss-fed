@@ -1,6 +1,7 @@
 <template>
 <h3>
   主页
+  {{ $store.state.currentUser}}
 </h3>
 </template>
 

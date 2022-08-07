@@ -1,7 +1,14 @@
 <template>
-<h3>
-  菜单管理
-</h3>
+<div class="menu">
+  <el-card class="box-card">
+  <div slot="header" class="clearfix">
+     <el-button @click="$router.push('create-menu')">创建菜单</el-button>
+  </div>
+  <div v-for="o in 4" :key="o" class="text item">
+    {{'列表内容 ' + o }}
+  </div>
+</el-card>
+</div>
 </template>
 
 <script>
@@ -21,7 +28,6 @@ export default {
     },
     // methods方法
     methods: {
-
     }
 }
 </script>
